@@ -29,14 +29,21 @@ function MovieItem(props) {
 */
 
 class MovieItem extends React.Component{
+    state = {
+        show: false
+    };
     render(){
         console.log(this)
-        const {data:{title, vote_avenges, image}} = this.props;
+        const {data:{title, vote_avenges, image, overview}} = this.props;
         return(
             <div>
                 <Image src={image} alt={title}/>
                 <p>{title}</p>
                 <p>{vote_avenges}</p>
+                <button type='button' onClick={
+                    ()=> this.setState({show: true})
+                }>SHOW</button>
+                {this.state.show == true? <p>{overview}</p>:null}
             </div>
         )
     }

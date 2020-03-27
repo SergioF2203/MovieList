@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ff2ea-09f7-4eb2-8c58-ef227c5f438d" name="Default Changelist" comment="Project Setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585226064641</updated>
       <workItem from="1585226069188" duration="6199000" />
+      <workItem from="1585335264613" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup">
       <created>1585229833931</created>
@@ -83,7 +83,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
