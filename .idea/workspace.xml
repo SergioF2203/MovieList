@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="456ff2ea-09f7-4eb2-8c58-ef227c5f438d" name="Default Changelist" comment="Project Setup">
+    <list default="true" id="456ff2ea-09f7-4eb2-8c58-ef227c5f438d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +25,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585226064641</updated>
       <workItem from="1585226069188" duration="6199000" />
-      <workItem from="1585335264613" duration="244000" />
+      <workItem from="1585335264613" duration="1375000" />
+      <workItem from="1585336673094" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup">
       <created>1585229833931</created>
@@ -72,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585229833931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+ state (show) to MovieItem">
+      <created>1585335752876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585335752876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Setup" />
+    <MESSAGE value="+ state (show) to MovieItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ state (show) to MovieItem" />
   </component>
 </project>

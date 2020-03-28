@@ -32,18 +32,21 @@ class MovieItem extends React.Component{
     state = {
         show: false
     };
+
+    toggleOverview = ()=> this.setState({show: !this.state.show});
+
     render(){
-        console.log(this)
+        console.log(this);
         const {data:{title, vote_avenges, image, overview}} = this.props;
         return(
             <div>
                 <Image src={image} alt={title}/>
                 <p>{title}</p>
                 <p>{vote_avenges}</p>
-                <button type='button' onClick={
-                    ()=> this.setState({show: true})
-                }>SHOW</button>
-                {this.state.show == true? <p>{overview}</p>:null}
+                <button type='button' onClick={this.toggleOverview}>
+                    {this.state.show ? "HIDE" : "SHOW"}
+                </button>
+                {this.state.show === true? <p>{overview}</p>:null}
             </div>
         )
     }
